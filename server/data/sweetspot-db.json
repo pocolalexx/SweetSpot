@@ -1,0 +1,78 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Classic Cinnamon Roll",
+      "category": "Cinnamon rolls",
+      "description": "Rulada clasica cu crema fina si glazura calda.",
+      "price": 18,
+      "calories": 410,
+      "protein": 8,
+      "carbs": 54,
+      "fat": 16,
+      "kind": "food",
+      "sizes": [],
+      "colors": []
+    },
+    {
+      "id": 2,
+      "name": "Protein Shake Vanilie",
+      "category": "Shake-uri",
+      "description": "Shake cremos cu proteina si gust de vanilie.",
+      "price": 22,
+      "calories": 260,
+      "protein": 28,
+      "carbs": 18,
+      "fat": 7,
+      "kind": "food",
+      "sizes": [],
+      "colors": []
+    },
+    {
+      "id": 3,
+      "name": "Tricou SweetSpot",
+      "category": "Merch",
+      "description": "Tricou personalizat pentru brand sau comanda speciala.",
+      "price": 79,
+      "kind": "apparel",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Negru",
+        "Alb"
+      ],
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "pocolalex18@gmail.com",
+      "username": "Alex",
+      "passwordHash": "8d8ca027b3a0d9abd43dd64b9a324a38dc690d7634dcbfe884d6d6ce7360a6df7abfb979423160476517c6895f0c61261f1e0b9f29ee43730b4a532d50272014",
+      "passwordSalt": "8ad4ddf43f250b92f76ff131216add25",
+      "loyaltyCode": "SS-E0527CCC",
+      "purchaseCount": 24,
+      "createdAt": "2026-07-08T12:25:04.629Z",
+      "lastSeenAt": "2026-07-10T16:35:32.337Z"
+    },
+    {
+      "id": 2,
+      "email": "cristianaelena.craciun@gmail.com",
+      "username": "Cristiana",
+      "passwordHash": "9e25a8903c80affc76d1a8dee7dfb2ae47be5528ff0ca9c650ecf943184151e486d05c5adeb6763cb6bb47f248a1c34f0312761c71af136bfc2491e4db540757",
+      "passwordSalt": "08c47e28a6926a66e8a11e3ffb621165",
+      "loyaltyCode": "SS-625EC5E3",
+      "purchaseCount": 0,
+      "createdAt": "2026-07-08T12:38:10.930Z",
+      "lastSeenAt": "2026-07-08T12:38:10.930Z"
+    }
+  ]
+}

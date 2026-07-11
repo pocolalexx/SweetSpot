@@ -1,0 +1,11 @@
+# Elimina folderele grele de dependinte (din client si server)
+node_modules/
+
+# Elimina folderele cu codul compilat
+dist/
+
+# Protejeaza cheile si IP-urile secrete
+.env
+
+# Elimina fisierele temporare de cache TypeScript
+*.tsbuildinfo
