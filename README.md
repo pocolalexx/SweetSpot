@@ -1,51 +1,26 @@
-# SweetSpot
+# SweetSpot - Cinnamon Roll Store Platform
 
-Starter pentru un site React + backend separat pentru meniu, conturi si fidelizare.
+A full-stack web application dedicated to a cinnamon roll store, providing customers with a seamless digital experience—from browsing the menu to managing a loyalty program.
 
-## Structura
+## 💡 Project Overview
+* **Purpose:** SweetSpot centralizes the store's menu, offering detailed product information and nutritional data, while streamlining the in-store customer experience through a digital loyalty card system.
+* **Key Features:**
+    * **Interactive Menu:** Browse products with detailed descriptions and nutritional values[cite: 2].
+    * **User Accounts:** Secure authentication system for customers to track purchase history and rewards[cite: 2].
+    * **Loyalty Program:** Dynamic generation of unique, scannable QR codes for in-store usage[cite: 2].
+    * **Shopping Cart:** Manage selections for both food items and apparel[cite: 2].
+    * **Customization:** Dark/Light mode support with persistent local storage[cite: 2].
 
-- `client/` - aplicatia React
-- `server/` - API-ul si stocarea JSON pentru meniu, conturi si fidelizare
+## 🛠️ Tech Stack
+* **Frontend:** React, TypeScript, Vite[cite: 2].
+* **Backend:** Node.js, TypeScript[cite: 2].
+* **Integrations:** `qrcode` library for loyalty card generation[cite: 2].
 
-## Ce scrii in fiecare loc
+## 🚀 Local Setup Instructions
 
-- `client/src/App.tsx` - layout-ul paginii: butoanele de navigare, logo-ul mare centrat, sectiunile pentru valori nutritionale, tricouri si blocul "app coming soon".
-- `client/src/components/` - componente mici reutilizabile, cum ar fi footer-ul si butoanele din hero.
-- `client/src/data/site.ts` - textele, linkurile si datele statice pentru site.
-- `client/src/styles.css` - culori, fonturi, spatiere si aspectul general.
-- `server/src/db.ts` - stocarea pentru meniu, useri, coduri de fidelitate si cumparaturi.
-- `server/src/index.ts` - rutele API pentru meniu, autentificare si scanare fidelitate.
+Ensure you have **Node.js** installed on your machine.
 
-## API
-
-- `GET /api/health` - verificare rapida a serverului.
-- `GET /api/products` - lista meniului, inclusiv valorile nutritionale pentru fiecare produs.
-- `POST /api/auth/sign-in` - creare cont (email, parola, confirmare parola) cu verificare anti-bot.
-- `POST /api/auth/log-in` - autentificare cont (email, parola, confirmare parola) cu verificare anti-bot.
-- `POST /api/loyalty/scan` - inregistreaza o cumparatura pentru codul de fidelitate scanat.
-
-## Configurare frontend
-
-- `VITE_API_BASE_URL` - optional, daca vrei sa schimbi adresa API-ului.
-- Implicit frontend-ul foloseste `http://localhost:3001/api`.
-
-## Flux cont si fidelitate
-
-1. Utilizatorul apasa pe `Cont` in bara de sus.
-2. Completeaza email, parola si confirmare parola in `Sign in` sau `Log in`.
-3. Dupa autentificare primeste cod unic de fidelitate si QR scanabil.
-4. La fiecare scanare in magazin, numarul de cumparaturi creste.
-5. La pragul definit in backend (`REWARD_THRESHOLD`), utilizatorul devine eligibil pentru recompensa.
-
-## Structura recomandata pe viitor
-
-- `client/src/pages/` - daca vrei mai tarziu pagini separate pentru meniu, nutritionale si merch.
-- `server/src/routes/` - daca vrei sa muti rutele dintr-un singur fisier in fisiere separate.
-- `server/src/controllers/` - logica pentru comenzi, produse si admin.
-- `server/src/models/` - schema si tipuri pentru datele din baza.
-
-## Ce urmeaza
-
-1. Instaleaza dependintele in `client` si `server`.
-2. Porneste backend-ul pentru date.
-3. Completeaza datele reale din `client/src/data/site.ts` (social, locatie, telefon).
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/pocolalexx/SweetSpot.git](https://github.com/pocolalexx/SweetSpot.git)
+   cd SweetSpot
