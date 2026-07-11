@@ -1,5 +1,7 @@
 # SweetSpot - Cinnamon Roll Store Platform
 
+WORK IN PROGRESS
+
 A full-stack web application dedicated to a cinnamon roll store, providing customers with a seamless digital experience—from browsing the menu to managing a loyalty program.
 
 ## 💡 Project Overview
